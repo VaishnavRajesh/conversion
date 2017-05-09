@@ -22,7 +22,7 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @RestController
-public class App {
+public class Application {
 
     
     
@@ -38,7 +38,7 @@ public class App {
 	
 
     public static void main(String[] args) {
-        SpringApplication.run(App.class, args);
+        SpringApplication.run(Application.class, args);
     }	
     
     @Bean
