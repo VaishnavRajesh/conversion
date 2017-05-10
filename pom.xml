@@ -48,10 +48,13 @@
          <artifactId>spring-boot-starter-test</artifactId>
          <scope>test</scope>
       </dependency>
+<<<<<<< HEAD
       <dependency>
       	<groupId>com.googlecode.json-simple</groupId>
       	<artifactId>json-simple</artifactId>
       </dependency>
+=======
+>>>>>>> branch 'master' of https://github.com/VaishnavRajesh/conversion
    </dependencies>
    <build>
       <plugins>
