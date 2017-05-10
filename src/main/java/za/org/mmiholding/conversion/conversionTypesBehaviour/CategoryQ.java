@@ -1,4 +1,4 @@
-package za.org.mmiholding.conversion;
+package za.org.mmiholding.conversion.conversionTypesBehaviour;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

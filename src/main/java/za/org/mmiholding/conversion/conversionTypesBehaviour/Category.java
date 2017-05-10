@@ -1,4 +1,4 @@
-package za.org.mmiholding.conversion;
+package za.org.mmiholding.conversion.conversionTypesBehaviour;
 
 public interface Category {
 	

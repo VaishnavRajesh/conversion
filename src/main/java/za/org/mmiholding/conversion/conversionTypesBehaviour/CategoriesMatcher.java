@@ -1,13 +1,17 @@
-package za.org.mmiholding.conversion;
+package za.org.mmiholding.conversion.conversionTypesBehaviour;
 
+import java.lang.invoke.MethodHandles;
 import java.util.HashMap;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
-	public class CategoriesHelper  {
+	public class CategoriesMatcher  {
+	private static final Logger logger =  LoggerFactory.getLogger(MethodHandles.lookup().lookupClass()) ;
 
 	    @Autowired
 	    @Qualifier("volume")
@@ -26,6 +30,8 @@ import org.springframework.stereotype.Component;
 			categories.put("volume", volume);
 			categories.put("temperature", temperature);
 			categories.put("area", area);
+			
+			logger.debug("Categories hashmap is intialized.........");
 			return categories;
 		}
 	    
